@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	width: 90%;
+	border: 1px solid red;
+	margin: auto;
+}
+
+.fullwrap,
+header,
+main,
+.sidebar,
+.wrap,
+footer {
+	margin: 10px;
+	border: 1px solid blue;
+}
+
+header {
+	height: 100px;
+}
+
+main {
+	float: left;
+	width: 50%;
+	height: 200px;
+}
+.sidebar {
+	float: right;
+	display: inline-block;
+	width: 40%;
+	height: 200px;
+}
+footer {
+	clear: both;
+	height: 100px;	
+}
+.last {
+	clear: both;	
+}

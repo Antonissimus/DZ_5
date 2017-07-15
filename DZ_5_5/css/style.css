@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	width: 60%;
+	margin: auto;
+	
+}
+
+.fullwrap {
+	background-color: #D1D1D1;
+}
+
+.wrap1,
+.wrap2,
+.wrap3 {
+	width: 87%;
+	margin: auto;
+	background-color: #fff;
+}
+
+header {
+	
+	width: 87%;
+	margin: auto;
+	padding-top: 50px;
+}
+
+header img{
+	display: block;
+	width: 100%;
+}
+
+.wrap1 span{
+	display: block;
+	text-align: center;	
+	padding-top: 50px;
+}
+.line1,
+.line2 {
+	display: block;
+	width: 88%;
+	margin: auto;
+}
+.wrap1 p{
+	padding: 10px 0px;
+	display: block;
+	margin: auto;
+	width: 86%;
+
+}
+.wrap2 p {
+	padding: 10px 0px 40px;
+}
+.col2 {
+	float: left;
+	width: 46%;
+    margin: 10px 10px;
+}
+.col2 img {
+	width: 100%;
+}
+
+.col3 {
+	float: left;
+	width: 30%;
+    margin: 10px 10px;	
+}
+
+.col3 img {
+	width: 100%;	
+}
+button {
+	width: 100%;
+	height: 40px;
+	background-color: #D65C4B;
+	color: white;
+	border: none;
+	border-radius: 5px;
+
+}
+.like,
+.wrap3 p {
+	display: block;
+	margin: auto;
+	width: 86%;
+
+}
+.box {
+	height: 30px;
+}
+
+.like {
+	margin-top: 50px;
+}
+.last {
+	clear: both;	
+}
+.footer {
+	text-align: center;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.footer a {
+	color: white;
+}
+.text {
+	height: 80px;
+}
