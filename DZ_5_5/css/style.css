@@ -9,6 +9,7 @@
 body {
 	width: 60%;
 	margin: auto;
+	font-size: 18px;
 	
 }
 
@@ -19,14 +20,14 @@ body {
 .wrap1,
 .wrap2,
 .wrap3 {
-	width: 87%;
+	width: 80%;
 	margin: auto;
 	background-color: #fff;
 }
 
 header {
 	
-	width: 87%;
+	width: 80%;
 	margin: auto;
 	padding-top: 50px;
 }
@@ -51,7 +52,7 @@ header img{
 	padding: 10px 0px;
 	display: block;
 	margin: auto;
-	width: 86%;
+	width: 83%;
 
 }
 .wrap2 p {
@@ -59,8 +60,8 @@ header img{
 }
 .col2 {
 	float: left;
-	width: 46%;
-    margin: 10px 10px;
+	width: 45%;
+    margin: 15px 14px;
 }
 .col2 img {
 	width: 100%;
@@ -68,8 +69,8 @@ header img{
 
 .col3 {
 	float: left;
-	width: 30%;
-    margin: 10px 10px;	
+	width: 28%;
+    margin: 10px 14px;	
 }
 
 .col3 img {
@@ -86,9 +87,10 @@ button {
 }
 .like,
 .wrap3 p {
+	padding: 10px 0px;
 	display: block;
 	margin: auto;
-	width: 86%;
+	width: 83%;
 
 }
 .box {
@@ -102,6 +104,7 @@ button {
 	clear: both;	
 }
 .footer {
+	font-size: 12px;
 	text-align: center;
 	color: white;
 	padding-top: 30px;
