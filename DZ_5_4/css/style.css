@@ -37,10 +37,14 @@ main {
 	width: 40%;
 	height: 200px;
 }
-footer {
+
+.wrap:after {
+	content:'';
+	display: table;
 	clear: both;
-	height: 100px;	
+
 }
-.last {
-	clear: both;	
+
+footer {
+	height: 100px;	
 }

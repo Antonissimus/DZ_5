@@ -100,9 +100,13 @@ button {
 .like {
 	margin-top: 50px;
 }
-.last {
-	clear: both;	
+
+.wrap2:after {
+	content:'';
+	display: table;
+	clear: both;
 }
+
 .footer {
 	font-size: 12px;
 	text-align: center;
